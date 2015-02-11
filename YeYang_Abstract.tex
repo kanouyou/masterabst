@@ -9,7 +9,7 @@
 \usepackage{float}
 \usepackage{setspace}
 \usepackage{titlesec}
-\usepackage{caption}
+\usepackage[belowskip=-10pt,aboveskip=0pt]{caption}
 \usepackage{CJKutf8}
 \usepackage[dvipdfmx, colorlinks=true, 
 			linkcolor=blue, citecolor=red,
@@ -43,29 +43,27 @@
 %Branching ratio of cLFV is predicted to $\textless$ 10$^{-54}$ in terms of the neutrino oscillation, otherwise, the prediction of SUSY-GUT and SUSY-Seasaw is less than 10$^{-15}$ according to a mixing of slepton.
 %The cLFV seeking experiment has a history of 70 years.
 Latest upper limit of $\mu \rightarrow e\gamma$ is 5.7$\times$10$^{-13}$ (90\% C.L.)\cite{meg}, which is updated by MEG experiment for searching $\mu^+ \rightarrow e^+\gamma$.%, and nothing interesting is found in that region.
-The upper limit for $\mu \rightarrow e$ conversion is 7$\times$10$^{-13}$ (90\% C.L.)\cite{sin} measured by SINDRUM-II experiment with Ti target.
+The upper limit for $\mu \rightarrow e$ conversion is 6.1$\times$10$^{-13}$ (90\% C.L.)\cite{sin} measured by SINDRUM-II experiment with Ti target.
 
 A coherent muon to electron transition (COMET) experiment is aiming to achieve the sensitivity of $\textless$ 3$\times$10$^{-17}$ to search for the cLFV with two steps.
 COMET experiment intends to search for $\mu \rightarrow e$ conversion with aluminium stopping target.
 COMET phase-I is aiming to measure the backgrounds and search for $\mu \rightarrow e$ conversion with sensitivity of 3.1$\times$10$^{-15}$.
-Phase-II is to search for it with $\textless$ 3$\times$10$^{-17}$.
-%Different from the MEG experiment, COMET experiment intends to search for $\mu \rightarrow e$ conversion with aluminium stopping target.
-Thus, %the experimental sensitivity totally depends on the muon beam quality, and 
-10$^{11}$ $\mu^-$/sec muons with low momentum are required.% at least for COMET experiment.
+Phase-II is to search for it with $\textless$ 3$\times$10$^{-17}$, which requires 10$^{11}$ $\mu^-$/sec muons with low momentum.
 It can be obtained by using high intense pulsed proton beam and superconducting magnet system.
 %Considering the degradation of superconducting magnets under the high radiation environment, the radiation resistance and its thermal property is studied in this paper.
 
-The paper summarizes the concept of the COMET experiment and also the design of the solenoid system including the analyses associated with the irradiation test.
+The study summarizes the concept of the COMET experiment and also the design of the solenoid system including the analyses associated with the irradiation test.
 
 \section{Design}
-~~~~The COMET superconducting magnet system consists of pion capture solenoid, muon transport solenoid and detector solenoid for phase-I experiment.
-Phase-II experiment utilizes the capture and transport solenoid, but the detector solenoid will be replaced by a long curved transport solenoid and spectrometer solenoid.
+~~~~The COMET superconducting magnet system consists of a pion capture solenoid, muon transport solenoid and detector solenoid for phase-I experiment.
+Phase-II experiment utilizes the capture and transport solenoid, but the detector solenoid will be replaced by a more sophisticated superconducting solenoid system.
 The pion capture solenoid provides 5 Tesla to capture the pions produced from production target, muon transport solenoid and detector solenoid transport muons from pion decay to stopping target and track the signal of 105 MeV electron from $\mu^- \rightarrow e^-$ conversion with 3 Tesla and 1 Tesla.
 These magnetic field must be smooth to eliminate the trapping of charged particle.
 
 To reduce the costs and stored energy, the two coils of pion capture solenoid, CS0 and CS1, are designed close to the production target with radius of 672 mm, which works under high radiation.
 As for the radiation issue, the conduction cooling is employed to minimize the $^3$H production due to the reaction $^3$He(n,p)$^3$H.
-Conductor is stabilized by Al to reduce the energy deposition from nuclear heating and mass in pion capture solenoid.
+%The conductor is stabilized by Al to reduce the energy deposition from nuclear heating and mass in pion capture solenoid.
+Conductor is stabilized by Al to reduce mass of the pion capture solenoid to minimize the nuclear heating.
 
 2.5$\times$10$^{12}$ pps proton beam with graphite target and 4.4$\times$10$^{13}$ pps proton beam with tungsten target is employed in phase-I and phase-II experiment.
 Therefore, a radiation shield will be installed inside the capture solenoid to protect the superconducting magnet.
@@ -106,15 +104,16 @@ The maximum energy deposition, neutron fluence and DPA for 280-day operation are
 \section{Irradiation test}
 ~~~~Since the superconducting magnet is exposed under high radiation, it may cause the degradation of superconducting coils, which has risk in thermal and mechanical property.
 To investigate the degradation of pure aluminium which used as stabilizer and cooling strips, the aluminium and copper is irradiated with 2$\times$10$^{20}$ n/m$^2$ reactor neutrons.
-As a result, the resistivity of aluminium and copper increase about 0.03 n$\Omega\cdot$m and 0.01 n$\Omega\cdot$m.
-It will also recover totally after the temperature returns to room temperature.
+As a result, the resistivity of Al and Cu increase about 0.03 n$\Omega\cdot$m and 0.01 n$\Omega\cdot$m.
+%It will also recover totally after the temperature returns to room temperature.
+It is also confirmed that the resistivity recover by the thermal cycle to the room temperature by 100\% for Al and about 90\% for Cu.
 
-The polyimide tape covers the conductor as ground insulation.
+Polyimide tape covers the conductor as ground insulation.
 It is reinforced by boron free glass cross on polyimide film with BT and epoxy resin to enhance the radiation resistance and mechanical property.
 Its mechanical property is tested with and without irradiation.
 The maximum shear stress is about 9 MPa, and its tensile strength will not reduce after 10 MGy irradiation with cobalt.
 
-GFRPs are employed as the spacer in superconducting solenoid.
+GFRPs are employed as spacers in superconducting solenoid.
 4 kinds of candidates, G10, CE, BMI and BT, are irradiated with electron with energy of 1 MeV and 34 MeV until 200 MGy and 4500 MGy, respectively.
 BT has best radiation resistance and mechanical property among these samples, which shows its tensile strength is 350 MPa without irradiation, and almost keep it until 200 MGy irradiation.
 
@@ -124,7 +123,7 @@ BT has best radiation resistance and mechanical property among these samples, wh
 % \caption{Measured and fitted the turn-on voltage before and after irradiation for quench protection diode.}
 % \label{diode}
 %\end{figure}
-Quench protection diode for transport solenoid is a switch of the quench protection circuit.
+A quench protection diode for transport solenoid is a switch of the quench protection circuit.
 It irradiation test is taken by using secondary neutrons produced from reaction of (d,xn).
 The neutron flux is measured by activation of Au, Al and Ni, which is estimated for 10$^{12}$ n/cm$^2$ totally until the end of experiment.
 However, its turn-on voltage has no big change before and after irradiation.
@@ -139,10 +138,10 @@ As for the worst case, the temperature will rise upto 70 K during the operation.
 %\subsubsection*{Thermal property}
 \section{Thermal stability and quench}
 %~~~~Since the superconducting solenoid has a risk of quench when it exceeds to the current sharing temperature during the operation, its temperature is estimated based on the neutron irradiation test.
-~~~~As for the original design of CS1, 1 mm thick Al strip are inserted into each layer from single side.
-Al strip is connected to the cooling pipe where is flowed in liquid helium.
-The resistivity of Al and Cu grow up in terms of the irradiation test.
-Its thermal conductivity will degrade owing to the increasing resistivity, thus the temperature during the operation is possible to exceed to the current sharing temperature after irradiation.
+~~~~As for the original design of CS1, 1 mm thick Al strips are inserted into each layer from single side.
+Al strip is connected to the cooling pipe in which liquid helium flows.
+The resistivity, as well as the thermal conductivity, of the Al strip increases according to the prompt radiation estimation and the neutron irradiation test.
+During the continuous beam operation the degradation of the thermal conductivity is accumulated, thus the temperature during the operation increases and eventually exceed to the current sharing temperature.
 Figure~\ref{temp} shows the temperature will rise to the current sharing temperature, 6.5 K, after 20-day operation.
 To solve this issue, the design is optimized by inserting the Al strips from two sides, shortening the Al strip from edge to cooling pipe and enlarging the thickness of inner Al strip to 3 mm.
 The 60-day operation becomes available after the optimization.
@@ -155,15 +154,16 @@ The 60-day operation becomes available after the optimization.
 
 The maximum temperature after quench is estimated by MIITs calculation.
 Electrical resistivity and specific heat of copper, aluminium and NbTi are fitted in terms of the experimental data.
-Dump resistor and inductance are supposed to 0.185 $\Omega$ and 12.69 $H$, respectively.
+Dump resistor and inductance are supposed to 0.185 $\Omega$ and 12.69 H, respectively.
 As a result, the MIITs is estimated to 250 MA$^2\cdot$sec, which corresponds to 270 K after quench when the RRR of aluminium drops to 100.
-It's too high for the superconducting solenoid, thus the temperature after quench will be discussed in future.
+It's too high for the superconducting solenoid, thus the temperature after quench will be analyzed in future.
 
 \section{Conclusion and Discussion}
 ~~~~In this study, the design of capture solenoid is optimized owing to the radiation issue.
 As for current design, the data taking of phase-II experiment is available for 60 days continuously.
-In COMET phase-II experiment, the superconducting solenoid is able to be operated until quench.
-Because Al and Cu can recover from the thermal cycling, the operation will be stopped after quench and wait the recovery of Al and Cu.
+%In COMET phase-II experiment, the superconducting solenoid is able to be operated until quench.
+%Because Al and Cu can recover from the thermal cycling, the operation will be stopped after quench and wait the recovery of Al and Cu.
+Because Al thermal conductivity recovers by the thermal cycling, the cooling condition can be recovered, and operation can be resumed.
 
 \begin{thebibliography}{10}
 %	\bibitem{phits} T. Sato, et al.: J. Nucl. Sci. Technol., 50:9 (2013), 913-923.
